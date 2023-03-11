@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <!-- ======== HEADER section ========= -->
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-pathshala.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon class="fa" name="close-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <ion-icon class="fa" name="menu-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+        <h1>Our Certificate & online Programs for 2023</h1>
+    </header>
+
+
+    <!-- ======== BLOG page Content ========= -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & online Programs for 2023</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus corporis incidunt saepe nisi
+                    dolor ducimus quisquam, sunt velit. Adipisci corporis quaerat doloremque saepe cumque perspiciatis
+                    consequuntur non dolores aliquid tempora explicabo incidunt commodi ea, expedita laboriosam
+                    cupiditate praesentium soluta porro.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse perferendis atque culpa numquam rerum
+                    placeat labore dolor laboriosam, beatae, vel alias? Animi, laborum? Maxime error quidem vitae neque,
+                    consequatur inventore asperiores minima dolorem? Quo ut dicta expedita illum nam alias optio. Iste
+                    nulla quod reprehenderit. Laborum sint nam quod, inventore, perferendis quia omnis nobis ab dolorem
+                    sunt ex voluptatum molestias!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur eligendi facilis, aliquid
+                    nihil aperiam, fugit culpa minima unde, perferendis obcaecati recusandae asperiores tempore earum!
+                    Deserunt, nisi quasi repellendus doloremque id nemo fugit aperiam modi minima nostrum animi quaerat
+                    autem odio ex voluptas rem ducimus voluptates unde, accusamus facilis quia dicta explicabo! Commodi
+                    perferendis ad repudiandae velit alias sit repellendus, nulla aliquam totam minus hic rerum iure
+                    aperiam tempore consequuntur.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, nihil voluptate cum ab itaque dolor
+                    rerum doloremque voluptatibus suscipit recusandae dolores accusamus vero ea ut magnam nulla quasi
+                    ducimus nisi? Est, vero obcaecati! Commodi ea perspiciatis esse fugiat, vitae error!</p>
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalsim</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ======== FOOTER Section ========= -->
+        <footer class="footer">
+            <h2>About US</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sint eius aliquam. Cupiditate
+                aspernatur adipisci maiores,<br> Quibusdam aperiam excepturi nihil amet eaque repudiandae ducimus! Quo.
+            </p>
+
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/sanket-kailkar" target="_blank">
+                    <ion-icon name="logo-linkedin" size=large></ion-icon></a>
+
+                <a href="https://www.github.com/sanketkailkar" target="_blank">
+                    <ion-icon name="logo-github" size=large></ion-icon></a>
+
+                <a href="https://www.instagram.com/sankett_sk" target="_blank">
+                    <ion-icon name="logo-instagram" size=large></ion-icon></a>
+
+                <a href="mailto:sanketkailkar.14@gmail.com" target="_blank">
+                    <ion-icon name="mail-outline" size=large></ion-icon></a>
+            </div>
+            <p>Made with <ion-icon name="heart"></ion-icon> by Sanket Kailkar</p>
+        </footer>
+
+        <!-- JavaScript icon script  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
